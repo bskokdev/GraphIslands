@@ -6,6 +6,10 @@
 
 using namespace std;
 
+/**
+ * Graph class to hold graph data
+ * Node is represented as value in 2d array -> no separate class needed
+ */
 class Graph {
 private:
     vector<vector<int>> data;
